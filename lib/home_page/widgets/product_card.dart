@@ -21,7 +21,6 @@ class ProductCard extends StatelessWidget {
             child: Ink(
               width: 170,
               height: 250,
-              // height: 150,
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage("assets/honey_sour.png"),

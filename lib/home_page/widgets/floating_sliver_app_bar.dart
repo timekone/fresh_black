@@ -28,12 +28,6 @@ class FloatingSliverAppBar extends StatelessWidget {
       ],
       pinned: false,
       expandedHeight: 300,
-      // expandedHeight: 350,
-
-      // title: Padding(
-      //   padding: const EdgeInsets.only(top: 20.0),
-      //   child: Text("Fresh Black"),
-      // ),
       backgroundColor: Colors.transparent,
       elevation: 0,
       flexibleSpace: FlexibleSpaceBar(
@@ -53,7 +47,6 @@ class FloatingSliverAppBar extends StatelessWidget {
         titlePadding: EdgeInsets.all(24),
         background: Padding(
           padding: const EdgeInsets.fromLTRB(4.0, 4, 4, 4),
-          // padding: const EdgeInsets.fromLTRB(4.0, 4, 4, 90),
           child: Card(
             elevation: 5.5,
             clipBehavior: Clip.antiAlias,
